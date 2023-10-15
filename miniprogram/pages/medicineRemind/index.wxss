@@ -1,0 +1,26 @@
+/* pages/medicineRemind/index.wxss */
+/* page 内css样式影响page内，影响不到组件内 */
+.addNewMedicineBox{
+  width: 90%;
+  height: 200rpx;
+  margin-bottom: 40rpx;
+  text-align: center;
+  line-height: 200rpx;
+  font-size: 60rpx;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  border-radius: 50rpx;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0 5rpx 15rpx rgb(92, 84, 84);
+  background-color: "#F0763E";
+  background: linear-gradient(#F0763E, rgb(237, 221, 213));
+
+}
+/* image{
+  width: 20%;
+  height: 200rpx;
+  position: relative;
+  left: 20rpx;
+} */

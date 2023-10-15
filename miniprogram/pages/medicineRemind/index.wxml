@@ -1,0 +1,9 @@
+<!--pages/medicineRemind/index.wxml-->
+<view>
+  <medicineFuncItem medicineName="阿莫西林" color="#F0763E"/>
+  <medicineFuncItem medicineName="氟西汀" color="#F0763E"/>
+  <medicineFuncItem medicineName="药品名称" color="#F0763E"/>
+  <view class="addNewMedicineBox" bindtap="addMedicine">
+  +添加新的药品
+  </view>
+</view>

@@ -1,0 +1,112 @@
+/* pages/voiceHelp/index.wxss */
+page{
+  height: 100%;
+}
+.bg{
+  height: 95%;
+  width: 90%;
+  background-color: #ecc8b4;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 50rpx;
+}
+.scrollView{
+  width: 100%;
+  height: 80%;
+  border-radius: 50rpx;
+  /* position: relative; */
+}
+.time{
+  width: 100%;
+  /* background-color: white; */
+  text-align: center;
+  color: white;
+  margin-bottom: 20rpx;
+  margin-top: 50rpx;
+}
+/* 左侧对话 */
+.answer{
+  background-color: rgb(247, 244, 244);
+  display: inline-block;
+  /* width: 70%; */
+  max-width: 70%;
+  margin-left: 30rpx;
+  margin-bottom: 40rpx;
+  padding: 20rpx;
+  border-radius: 0 30rpx 30rpx 30rpx;
+  line-height: 50rpx;
+}
+.user-item::after{
+  content: '.';
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  clear: both;
+  height: 0;
+}
+/* 右侧对话 */
+.question{
+  background-color: #F0763E;
+  color: white;
+  /* display: inline-block; */
+  max-width: 70%;
+  float: right;
+  margin-right: 20rpx;
+  margin-bottom: 30rpx;
+  padding: 20rpx;
+  border-radius: 30rpx 0 30rpx 30rpx;
+  line-height: 50rpx;
+}
+.sayBtn{
+  height: 2000rpx;
+  width: 2000rpx;
+  background-color: #F0763E;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius:  1000rpx;
+  transition: all 0.5s ease ;
+}
+.sayImg{
+  position: absolute;
+  width: 310rpx;
+  height: 242rpx;
+  margin-left: 50%;
+  margin-top:940rpx;
+  transform: translateX(-50%);
+  background-color: rgb(243, 169, 8);
+}
+.touchSayStyle{
+  height: 2000rpx;
+  width: 2000rpx;
+  background-color: #F0763E;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius:  1000rpx;
+  transition: all 0.5s ease ;
+}
+.cancelSayBtn{
+  /* background-color: #F0763E; */
+  width: 300rpx;
+  height: 200rpx;
+  position: absolute;
+  left: 50%;
+  top: 5%;
+  transform: translateX(-50%);
+  text-align: center;
+  color: rgb(212, 86, 28);
+  font-weight: bold;
+}
+.cancelSayBtn .x{
+  width: 150rpx;
+  height: 150rpx;
+  background-color: #F0763E;
+  /* background-image: url(); */
+  margin-left: 50%;
+  transform: translateX(-50%);
+  border-radius: 75rpx;
+}

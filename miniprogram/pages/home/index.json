@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "homeFunctionItem": "../../components/homeItem/index"
+  }
+}

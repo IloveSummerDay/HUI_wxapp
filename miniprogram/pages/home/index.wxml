@@ -1,0 +1,10 @@
+<!--pages/home/index.wxml-->
+
+<view class="title">
+  title
+</view>
+<view>
+  <homeFunctionItem text="用药提醒" url="../medicineRemind/index"/>
+  <homeFunctionItem text="语音答疑" url="../voiceHelp/index"/>
+  <homeFunctionItem text="更多设置" url="../moreSetting/index"/>
+</view>

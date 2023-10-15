@@ -1,0 +1,13 @@
+<!--components/medicineRemindItem/index.wxml-->
+<view class="box" style="background-color: {{color}};">
+
+  <view class="medicineName" bindtap="navMedicineToFuncPage">{{ medicineName }}</view>
+
+  <scroll-view scroll-y="true" enhanced="true" show-scrollbar="false"  class="remind-item" bindtap="changeTime">
+    <view class="time-item" wx:for="{{timeList}}" wx:key="{{index}}">
+      {{ item }}
+    </view>
+  </scroll-view>
+
+  <switch checked="true" bindchange="onSwitchMedicineTime" color="#EDC585"/>
+</view>

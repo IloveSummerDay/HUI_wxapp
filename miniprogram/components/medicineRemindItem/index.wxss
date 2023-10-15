@@ -1,0 +1,48 @@
+/* components/medicineRemindItem/index.wxss */
+.box{
+  width: 90%;
+  height: 200rpx;
+  margin-bottom: 40rpx;
+  line-height: 200rpx;
+  font-size: 80rpx;
+  font-weight: 600;
+  color: white;
+  border-radius: 50rpx;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0 10rpx 15rpx rgb(92, 84, 84);
+  display: flex;
+  background-color: #F0763E;
+}
+.medicineName{
+  height: 100%;
+  width: 340rpx;
+  display: inline-block;
+  /* background-color: blueviolet; */
+  padding-left: 30rpx;
+}
+.remind-item{
+  height: 180rpx;
+  width: 180rpx;
+  transform: translateY(-50%);
+  border-radius: 50rpx;
+  background-color: #EDA685;
+  position: absolute;
+  right: 130rpx;
+  top: 50%;
+  /* overflow:hidden; 超出隐藏 */
+}
+.time-item{
+  width: 100%;
+  height: 33%;
+  font-size: 35rpx;
+  text-align: center;
+  line-height: 200%;
+}
+switch{
+  display: inline-block;
+  width: 120rpx;
+  position: absolute;
+  right: 0;
+}

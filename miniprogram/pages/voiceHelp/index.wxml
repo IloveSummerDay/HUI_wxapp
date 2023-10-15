@@ -1,0 +1,30 @@
+<!--pages/voiceHelp/index.wxml-->
+<view class="bg">
+  <scroll-view class="scrollView"  show-scrollbar="false" scroll-y="true" scroll-top="right">
+    <view class="time">
+      上午 9:30
+    </view>
+    <!-- template -->
+    <view wx:for="{{ chatList }}" class="{{ item.classIndex == 'question' ? 'user-item' : '' }}">
+      <view class="{{ item.classIndex == 'question' ? 'question' : 'answer' }}">
+        {{ item.content }}
+      </view>
+    </view>
+    <!-- template -->
+    
+  </scroll-view>
+</view>
+<!-- 说话按钮bg -->
+<view class="sayBtn {{touch ? 'touchSayStyle' : ''}}">
+</view>
+<!-- 话筒图片 -->
+<image  class="sayImg"  bindtouchstart="sayStart" bindtouchend="sayEnd" wx:if="{{ !touch }}" src="../../images/话筒.png" mode=""/>
+<image  class="sayImg"  bindtouchstart="sayStart" bindtouchend="sayEnd" wx:els="{{ touch }}"src="../../images/话筒.png" mode=""/>
+<!-- 上方取消按钮x -->
+<view class="cancelSayBtn" wx:if="{{ touch }}">
+  <view class="x" wx:if="{{ touch }}">
+    <image class="cancelImg" src="" mode=""/>
+  </view>
+  上划至此松手取消
+</view>
+

@@ -1,0 +1,6 @@
+<!--pages/moreSetting/index.wxml-->
+
+<moreSettingItem text="远程登陆" color="#76A7CF"/>
+<moreSettingItem text="个人资料" color="#76A7CF"/>
+<moreSettingItem text="界面设置" color="#76A7CF"/>
+<moreSettingItem text="用户反馈" color="#76A7CF"/>

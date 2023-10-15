@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "moreSettingItem" : "../../components/homeItem"
+  },
+  "navigationBarTitleText": "更多设置"
+}

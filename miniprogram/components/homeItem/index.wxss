@@ -1,0 +1,29 @@
+/* components/homeItem/index.wxss */
+.box{
+  width: 90%;
+  height: 200rpx;
+  margin-bottom: 40rpx;
+  text-align: center;
+  line-height: 200rpx;
+  font-size: 100rpx;
+  font-weight: 600;
+  color: white;
+  border-radius: 50rpx;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0 10rpx 15rpx rgb(92, 84, 84);
+  display: flex;
+}
+image{
+  width: 20%;
+  height: 200rpx;
+  position: relative;
+  left: 20rpx;
+}
+text{
+  flex: 1;
+  display: inline-block;
+  width: 80%;
+  height: 100%;
+}

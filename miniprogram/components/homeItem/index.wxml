@@ -1,0 +1,6 @@
+<!--components/homeItem/index.wxml-->
+
+<view class="box" bindtap="navHomeToFuncPage"                   style="background-color: {{color}};">
+  <image src="" mode=""/>
+  <text>{{ text }}</text>
+</view>
